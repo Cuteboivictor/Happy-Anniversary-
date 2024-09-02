@@ -1,4 +1,6 @@
 .container {
+    width: 100%;
+    margin: 0 auto;
     position: relative;
     text-align: center;
     color: black;
@@ -9,20 +11,50 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Dancing Script", cursive;
-    font-size: 40px;
+    font-size: 2.4em;
+    margin: 15px 0;
+    line-height: 1.3;
   }
   .Top-left{
     position: absolute;
-    top: 25%;
-    left: 28%;
+    top: 21.5%;
+    left: 25%;
     font-family: "Dancing Script", cursive;
     font-size: 40px;
   }
   .bottom-left{
     position: absolute;
-    bottom: 25%;
-    left: 28%;
+    bottom: 20%;
+    left: 25%;
     font-family: "Dancing Script", cursive;
-    font-size: 40px;
+    font-size: 39.5px;
   }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        background-color: black;
+  }
+}
+
+  @media only screen and (min-width: 601px) {
+    .container {
+        width: 100%;
+        background-color: black;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+        background-color: black;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 100%;
+        background-color: black;
+  }
+}
   
